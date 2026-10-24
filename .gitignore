@@ -1,0 +1,55 @@
+# Environment variables and API secrets (CRITICAL: never commit real API keys!)
+.env
+.env.local
+.env.*.local
+
+# Python Virtual Environments
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Streamlit config and cache
+.streamlit/secrets.toml
+.streamlit/cache/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE and Editor artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Exported user evaluations and temp runs
+evaluations_export_*.csv
+batch_results_*.csv
